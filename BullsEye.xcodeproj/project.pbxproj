@@ -13,6 +13,7 @@
 		4D3D340C1A3895BD00CD68E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D340B1A3895BD00CD68E4 /* Images.xcassets */; };
 		4D3D340F1A3895BD00CD68E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D340D1A3895BD00CD68E4 /* LaunchScreen.xib */; };
 		4D3D341B1A3895BD00CD68E4 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D341A1A3895BD00CD68E4 /* BullsEyeTests.swift */; };
+		4D906E9C1A3B3FF000834C32 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D906E9B1A3B3FF000834C32 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4D3D34141A3895BD00CD68E4 /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3D34191A3895BD00CD68E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D3D341A1A3895BD00CD68E4 /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
+		4D906E9B1A3B3FF000834C32 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				4D3D34041A3895BD00CD68E4 /* AppDelegate.swift */,
 				4D3D34061A3895BD00CD68E4 /* ViewController.swift */,
 				4D3D34081A3895BD00CD68E4 /* Main.storyboard */,
+				4D906E9B1A3B3FF000834C32 /* AboutViewController.swift */,
 				4D3D340B1A3895BD00CD68E4 /* Images.xcassets */,
 				4D3D340D1A3895BD00CD68E4 /* LaunchScreen.xib */,
 				4D3D34021A3895BD00CD68E4 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D906E9C1A3B3FF000834C32 /* AboutViewController.swift in Sources */,
 				4D3D34071A3895BD00CD68E4 /* ViewController.swift in Sources */,
 				4D3D34051A3895BD00CD68E4 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				4D3D34201A3895BD00CD68E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D3D34211A3895BD00CD68E4 /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				4D3D34231A3895BD00CD68E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
