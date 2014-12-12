@@ -46,32 +46,35 @@ class ViewController: UIViewController {
 
     @IBAction func showAlert() {
         let difference = abs(targetValue - currentValue)
-        let points = 100 - difference
-        score += points
+        var points = 100 - difference
         
         var title: String
         if difference == 0 {
             title = "PERFECT!"
+            points += 100
         } else if difference < 5 {
             title = "SO close!"
+            if difference == 1 {
+                points += 50
+            }
         } else if difference < 10 {
             title = "Good effort"
         } else {
             title = "Not even close"
         }
         
+        score += points
+        
         let message = "You scored \(points) points!"
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .Alert) // local variable
-        
-        let action = UIAlertAction(title: "OK", style: .Default, handler: nil) // local variable
-        
+        let action = UIAlertAction(title: "OK", style: .Default, handler: { action in
+                                                                            self.startNewRound()
+                                                                            self.updateLabels()})
         alert.addAction(action)
         
+//        Here, I make the alert visible:
         presentViewController(alert, animated: true, completion: nil)
-        
-        startNewRound()
-        updateLabels()
     }
     
     @IBAction func sliderMoved(slide: UISlider) {
