@@ -49,12 +49,6 @@
                                     <action selector="sliderMoved:" destination="vXZ-lx-hvc" eventType="valueChanged" id="qKH-cx-J4G"/>
                                 </connections>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYY-Bi-NGm">
-                                <rect key="frame" x="16" y="270" width="70" height="30"/>
-                                <state key="normal" title="Start Over">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RES-aj-G6X">
                                 <rect key="frame" x="135" y="274" width="50" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -91,6 +85,15 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYY-Bi-NGm">
+                                <rect key="frame" x="16" y="270" width="70" height="30"/>
+                                <state key="normal" title="Start Over">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startOver" destination="vXZ-lx-hvc" eventType="touchUpInside" id="q2S-GJ-ZQn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
