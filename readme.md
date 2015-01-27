@@ -4,9 +4,7 @@
 
 ![alt text](https://raw.githubusercontent.com/fadieh/bullseye_swift/master/alertscreen.png "The Alert Screen")
 
-I present to you my very first app using the walkthrough provided by iOS Apprentice - Third Edition, Beginning iOS Development with Swift by Matthijs Hollemans from raywenderlich.com.
-
-My plan ahead is to change the visuals using my own graphics.
+A small and simple Bullseye game made in Swift!
 
 ### Technologies used
 
